@@ -1,0 +1,191 @@
+body{
+    font-family: sans-serif;
+    padding-top: 0; 
+    background-color: #000000;
+    color: #E7F0E3;
+}
+
+h1{
+    font-family: cursive;
+    text-align: center;
+    font-size: 400%;
+    position: relative;
+    margin-top: 0;
+    width: 100%;
+    color: #E7F0E3;
+}
+h2{
+    font-size: 200%;
+    color: #E0D668;
+}
+h3{
+    font-size: 125%;
+}
+a{
+    color:#23778E;
+}
+a:hover{
+    color: #78CACF;
+}
+.navigation ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: #E7F0E3;
+    float:left;
+    background-color: #23778E;
+    width: 100%;
+    
+}
+
+.navigation li{
+    display: inline
+}
+
+.navigation li a{
+    float: left;
+    width: 15%;
+    color:#E7F0E3;
+    background-color: #23778E;
+    padding: .2em 1em;
+    text-decoration: none;
+    border-right: 1px solid #E7F0E3;  
+}
+.navigation li a:hover{
+    background-color: #78CACF;
+    font-weight: bold;
+}
+main{
+    padding: 5%;
+}
+
+
+.left{
+    clear: both;
+    float: left;
+}
+
+.right{
+   float: right; 
+}
+
+main p{
+    text-indent: 1.5rem;
+}
+main figure{
+    text-align: center;
+    overflow: auto;
+}
+#index p{
+        width: 45%;
+}
+
+#index figure{ 
+    width: 27rem;
+    border: 3px solid #E7F0E3;  
+}
+
+main figcaption{
+    text-align: center;
+}
+
+
+.person{
+    float: left;
+    text-align: center;
+    padding-bottom: 1rem;
+    width: 48%;
+    padding-top: 0;
+    height: 40rem;
+}
+
+.person img{
+    border: 3px solid #E7F0E3;
+}
+
+.person p{
+    margin: 5%;
+    padding: 15%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#term dl dd{
+    float: left;
+    padding: 3.5%;
+    padding-top: 0;
+    padding-bottom: 3rem;
+    width: 5%;
+    height: 6rem;
+    border: 2px solid #E7F0E3;
+    border-right: none;
+    border-bottom: none;
+    
+}
+
+#term dl dt{
+    float: left;
+    padding: 3.5%;
+    padding-top: 0;
+    padding-bottom: 3rem;
+    width: 25%;
+   height: 6rem;
+    border: 2px solid #E7F0E3;
+    border-left: none;
+    border-bottom: none;
+}
+
+#ref ol{
+    width: 50%
+}
+
+#ref ol li{
+    margin-bottom: 2rem;
+    text-indent: 1.5rem;
+}
+
+
+@media screen and (max-width: 1085px){
+    .navigation li a{
+        clear: both;
+        text-align: center;
+        width: 100%;
+        padding: 1%;
+        border: 2px solid;
+    }
+    h2{
+        text-align: center;
+    }
+    .right{
+        clear: both;
+    }
+    .left{
+        clear: both;
+    }
+    #index p{
+        width: 90%;
+    }
+    #index figure{
+        width: 90%
+    }
+    .person{
+        padding: 2%;
+        width: 96%;
+        padding-top: 0; 
+    }
+    #term dl dd{
+        padding: 7%;
+        padding-top: 0;
+        padding-bottom: 3rem;
+        width: 10%;
+    }
+    #term dl dt{
+        padding: 7%;
+        padding-top: 0;
+        padding-bottom: 3rem;
+        width: 50%;
+    }
+    
+}
+
+

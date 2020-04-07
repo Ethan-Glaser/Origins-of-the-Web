@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Origins of the Web</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1>Orgins of the Web</h1>
+            <div class="navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pioneers.html">Internet Pioneers</a></li>
+                    <li><a href = "http.html">HTTP</a></li>
+                    <li><a href="terminology.html">Terminology</a></li>
+                    <li><a href="references.html">References</a></li>
+                </ul>
+            </div>
+        </div>
+        <main id="http">
+            <h2>How HTTP Works</h2>
+            <p>When someone enters a URL into a web browser and a webpage comes up, the web browser doesn’t magically know what page the client was looking for and how to find that page. The browser follows a set of protocols which are the building blocks of the Internet. When a client enters in a webpage for the first time, your computer first needs to know the address of where it can receive the data. This is done using the DNS Protocol that will take the URL of the webpage you want to access and return the IP address of the server that the html file is on. From there the browser activates HTTP. HTTP clients, otherwise known as web browsers, will send a request to a web server which will prosses the request using the HTTP service. HTTP is like the highway of the World Wide Web and everything traveling on this highway, known as packets, is then delivered back to the client who sent the request. HTTP is built upon the TCP Protocol, a protocol that given an IP address and port number will establish a connection with that server and port so that HTTP is able to make the request for the web page. All of this is built upon the IP Protocol which is basically a logical addressing system so that the packets being sent using HTTP know exactly where they are going and aren’t just scattered aimlessly on the Internet. This is why the browser first called DNS to receive the IP address. Once the packets are all received by the client, the browser reassembles these packets and then can read the hypertext in HTML format, and that is displayed to the user on the screen with HTML and CSS.</p>
+            <figure><img src="assets/media/HTTPexplain.png" alt="HTTP_Diagram" width="697" height="239"><figcaption>HTTP Diagram</figcaption></figure>
+        </main>
+    </body>
+</html>
